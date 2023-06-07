@@ -13,7 +13,7 @@ const Form = ({ setInputText, setTodo, todo, inputText, setStatus }) => {
   const submitTodoHandler = (e) => {
     e.preventDefault();
     if (inputText === "") {
-      alert("plesse fill the deta");
+      alert("Please enter data");
     }
     else{
       setTodo([

@@ -72,14 +72,14 @@ form .todo-button:hover {
 
 .complete-btn,
 .trash-btn {
-    background-color: orange;
+    background-color: rgb(255, 0, 0);
     color: white;
     border: none;
     padding: 1rem;
 }
 
 .complete-btn {
-    background-color: rgb(115, 241, 13);
+    background-color: rgb(13, 24, 241);
 }
 
 .completed {
@@ -139,14 +139,17 @@ select {
     }
     form input,
     form button {
-        padding: 0.2rem;
+        padding: 1rem 0.2rem;
         font-size: 1rem;
     }
-
+    .select {
+        margin: 0.5rem;
+    
+    }
     select {
-        width: 5rem;
+        width: 6rem;
         font-size: 0.6rem;
-        padding: 0.5rem;
+        padding: 1.1rem 0.5rem;
         transition: none;
       
 
@@ -157,7 +160,7 @@ select {
     }
 
     .select::after {
-        padding: 0.1rem;
+        padding: 0.9rem 0.2rem;
         transition: none;
     }
     .todo {
