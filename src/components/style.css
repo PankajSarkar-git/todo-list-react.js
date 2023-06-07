@@ -134,11 +134,13 @@ select {
 /* mobile responsive */
 
 @media (max-width:660px) {
-
+    form{
+        padding: 1rem;
+    }
     form input,
     form button {
         padding: 0.2rem;
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
 
     select {
@@ -160,5 +162,6 @@ select {
     }
     .todo {
         font-size: 1rem;
+        padding: 0.2rem 0.5rem;
     }
 }
