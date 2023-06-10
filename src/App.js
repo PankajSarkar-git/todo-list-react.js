@@ -63,7 +63,7 @@ useEffect(() => {
         <Header />
         <Form inputText={inputText} setTodo={setTodo} todo={todo} setInputText={setInputText} setStatus={setStatus} />
         <ToDoList todo={todo} setTodo={setTodo} filterTodo={filterTodo} />
-        <RemoveAll setFilterTodo={setFilterTodo}/>
+        <RemoveAll setFilterTodo={setFilterTodo} setTodo={setTodo}/>
       </div>
 
     </>

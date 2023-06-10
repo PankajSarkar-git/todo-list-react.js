@@ -1,8 +1,8 @@
 import React from 'react'
 
-const RemoveAll = ({setFilterTodo}) => {
+const RemoveAll = ({setFilterTodo,setTodo}) => {
     const RemoveAll = () => {
-        setFilterTodo([])
+        setTodo([])
     }
 
   return (
