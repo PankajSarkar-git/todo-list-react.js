@@ -3,6 +3,7 @@ import "./App.css"
 import Header from './components/Header'
 import Form from './components/Form'
 import ToDoList from './components/ToDoList'
+import RemoveAll from './components/RemoveAll'
 
 // get localStorage data 
  
@@ -62,6 +63,7 @@ useEffect(() => {
         <Header />
         <Form inputText={inputText} setTodo={setTodo} todo={todo} setInputText={setInputText} setStatus={setStatus} />
         <ToDoList todo={todo} setTodo={setTodo} filterTodo={filterTodo} />
+        <RemoveAll setFilterTodo={setFilterTodo}/>
       </div>
 
     </>
